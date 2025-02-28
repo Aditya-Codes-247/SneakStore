@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+@layer utilities {
+  .text-neon-pink {
+    color: #ff6b6b;
+  }
+  
+  .text-neon-purple {
+    color: #a855f7;
+  }
+  
+  .text-neon-blue {
+    color: #60a5fa;
+  }
+}
